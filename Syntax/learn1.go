@@ -2,6 +2,8 @@ package main
 
 /*
 	声明变量的方式
+	方式1，2，3可以用来声明全局变量
+	而方式4只能用于函数体声明
 */
 import (
 	"fmt"
@@ -19,5 +21,6 @@ func main() {
 	fmt.Println(c)
 	//方式4：可以省去var，直接自动匹配
 	d := 10
+
 	fmt.Println(d)
 }
