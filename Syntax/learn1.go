@@ -21,6 +21,17 @@ func main() {
 	fmt.Println(c)
 	//方式4：可以省去var，直接自动匹配
 	d := 10
-
+	//声明多个变量
+	var x, y, z int = 1, 2, 3
+	fmt.Println(x, y, z)
+	var xx, yy, zz = 1, 2, 3
+	fmt.Println(xx, yy, zz)
+	xxx, yyy, zzz := 1, 2, 3
+	fmt.Println(xxx, yyy, zzz)
+	var (
+		vv int  = 100
+		jj bool = true
+	)
+	fmt.Println(vv, jj)
 	fmt.Println(d)
 }
